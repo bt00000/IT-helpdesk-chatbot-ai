@@ -1,0 +1,132 @@
+/* basic styling for chatbot */
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.app {
+  width: 100%;
+  max-width: 760px;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+
+.header {
+  background: #233a75;
+  color: white;
+  padding: 20px 24px;
+}
+
+.header h1 {
+  margin: 0 0 6px;
+  font-size: 24px;
+}
+
+.header p {
+  margin: 0;
+  opacity: 0.92;
+  line-height: 1.4;
+  font-size: 14px;
+}
+
+.chatbox {
+  height: 500px;
+  overflow-y: auto;
+  padding: 20px;
+  background: #eef3fb;
+}
+
+.message {
+  max-width: 78%;
+  padding: 12px 14px;
+  border-radius: 14px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.bot {
+  background: white;
+  color: #222;
+  border-bottom-left-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.user {
+  background: #1f3c88;
+  color: white;
+  margin-left: auto;
+  border-bottom-right-radius: 6px;
+}
+
+.typing {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.quick-replies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 20px 16px;
+  background: #eef3fb;
+}
+
+.quick-replies button {
+  border: none;
+  background: white;
+  color: #1f3c88;
+  padding: 10px 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.quick-replies button:hover {
+  background: #dfe9ff;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  padding: 18px;
+  border-top: 1px solid #dde4f0;
+  background: white;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid #cfd8e7;
+  border-radius: 12px;
+  font-size: 15px;
+  outline: none;
+}
+
+.input-area button {
+  border: none;
+  background: #1f3c88;
+  color: white;
+  padding: 0 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer-note {
+  padding: 0 20px 18px;
+  color: #556;
+  font-size: 12px;
+  background: white;
+}
