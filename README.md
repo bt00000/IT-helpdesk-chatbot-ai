@@ -16,6 +16,15 @@ Simple IT HelpDesk chatbot to troubleshoot common IT issues
 - Node.js (Express)
 - OpenAI API
 
+## Project Structure
+
+- `index.html` – chatbot UI layout  
+- `style.css` – styling (layout, chat bubbles, buttons)  
+- `script.js` – frontend logic (flow, state, AI calls)  
+- `server.js` – backend API (validation, AI handling)  
+- `package.json` – dependencies and config  
+- `package-lock.json` – dependency versions  
+
 ## Setup
 
 ### Clone the repository
