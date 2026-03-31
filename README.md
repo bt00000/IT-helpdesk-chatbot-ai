@@ -70,10 +70,21 @@ The flowchart below shows how the chatbot routes users through rule-based paths,
 
 
 ### Troubleshooting Flow (Rule-based flow example, no AI)
+
+
+https://github.com/user-attachments/assets/ee1e29ac-2e4c-4c5b-b6c5-28c9c3161030
+
+
+
 ![1](https://github.com/user-attachments/assets/81552a3b-5fec-43ba-b5a9-08e67abd841c)
 
 
 ### Troubleshooting Flow (WITH AI fallback flow)
+
+
+https://github.com/user-attachments/assets/721f6282-eb0a-4cd9-9472-ac25852e0601
+
+
 <img width="1000" height="2000" alt="2" src="https://github.com/user-attachments/assets/40dc54be-6521-4060-936f-22cf6270388b" />
 <img width="1000" height="536" alt="3" src="https://github.com/user-attachments/assets/46b6bdfb-cdfb-45a4-8a6a-72cdeb83aad4" />
 
